@@ -14,10 +14,11 @@ expo-env.d.ts
 # tamagui
 .tamagui/
 
+.env
+
+
 # macOS
 .DS_Store
 
 # Temporary files created by Metro to check the health of the file watcher
 .metro-health-check*
-
-.env
