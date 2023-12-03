@@ -12,6 +12,12 @@ export default function TabLayout() {
           headerTitle: "It's Fun Time!",
         }}
       />
+      <Stack.Screen
+        name="anime/[id]"
+        options={{
+          headerTitle: 'Details',
+        }}
+      />
     </Stack>
   );
 }
