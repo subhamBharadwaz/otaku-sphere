@@ -9,6 +9,18 @@ export default function TabLayout() {
           headerTitle: 'Brows Animes',
         }}
       />
+      <Stack.Screen
+        name="genre/[slug]"
+        options={{
+          headerTitle: 'Genre',
+        }}
+      />
+      <Stack.Screen
+        name="anime/[id]"
+        options={{
+          headerTitle: 'Details',
+        }}
+      />
     </Stack>
   );
 }
