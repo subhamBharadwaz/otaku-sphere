@@ -1,86 +1,363 @@
 {
-  "anime": {
-    "info": {
-      "id": "one-piece-100",
-      "name": "One Piece",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/54/90/5490cb32786d4f7fef0f40d7266df532/5490cb32786d4f7fef0f40d7266df532.jpg",
-      "description": "Gold Roger was known as the \"Pirate King,\" the strongest and most infamous being to have sailed the Grand Line. The capture and execution of Roger by the World Government brought a change throughout the world. His last words before his death revealed the existence of the greatest treasure in the world, One Piece. It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece—which promises an unlimited amount of riches and fame—and quite possibly the pinnacle of glory and the title of the Pirate King.\n\nEnter Monkey Luffy, a 17-year-old boy who defies your standard definition of a pirate. Rather than the popular persona of a wicked, hardened, toothless pirate ransacking villages for fun, Luffy's reason for being a pirate is one of pure wonder: the thought of an exciting adventure that leads him to intriguing people and ultimately, the promised treasure. Following in the footsteps of his childhood hero, Luffy and his crew travel across the Grand Line, experiencing crazy adventures, unveiling dark mysteries and battling strong enemies, all in order to reach the most coveted of all fortunes—One Piece.",
-      "stats": {
-        "rating": "PG-13",
-        "quality": "HD",
-        "episodes": { "sub": 1086, "dub": 1036 },
-        "type": "TV",
-        "duration": "24m"
-      }
+  "genreName": "Shounen Anime",
+  "animes": [
+    {
+      "id": "ranma-ova-906",
+      "name": "Ranma ½ OVA",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/06/c9/06c902b091ea5ae2c711b6e00fa3705a/06c902b091ea5ae2c711b6e00fa3705a.jpg",
+      "duration": "30m",
+      "type": "OVA",
+      "rating": null,
+      "episodes": { "sub": 6, "dub": 6 }
     },
-    "moreInfo": {
-      "japanese": "ONE PIECE",
-      "synonyms": "OP",
-      "aired": "Oct 20, 1999 to ?",
-      "premiered": "Fall 1999",
+    {
+      "id": "black-butler-special-1401",
+      "name": "Black Butler Special",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/70/66/706665bef0c29fedaf8ff2e55b69f9d7/706665bef0c29fedaf8ff2e55b69f9d7.jpg",
+      "duration": "26m",
+      "type": "Special",
+      "rating": null,
+      "episodes": { "sub": 1, "dub": null }
+    },
+    {
+      "id": "shattered-angels-5860",
+      "name": "Shattered Angels",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/67/51/6751e8c65c3ca0b24dbc4ca6106126fe/6751e8c65c3ca0b24dbc4ca6106126fe.jpg",
       "duration": "24m",
-      "status": "Currently Airing",
-      "malscore": "8.62",
-      "genres": ["Action", "Adventure", "Comedy", "Drama", "Fantasy", "Shounen", "Super Power"],
-      "studios": "Toei Animation",
-      "producers": [
-        "Fuji TV",
-        "TAP",
-        "Shueisha",
-        "Toei Animation",
-        "Funimation",
-        "4Kids Entertainment"
-      ]
+      "type": "TV",
+      "rating": null,
+      "episodes": { "sub": 12, "dub": 12 }
+    },
+    {
+      "id": "sket-dance-imouto-no-nayami-ni-nayamu-ani-ni-nayamu-imouto-to-sono-nakama-tachi-575",
+      "name": "SKET Dance: Imouto no Nayami ni Nayamu Ani ni Nayamu Imouto to Sono Nakama-tachi",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/62/99/62992497b20f6ed077ffa6d0d9ec846f/62992497b20f6ed077ffa6d0d9ec846f.jpg",
+      "duration": "27m",
+      "type": "OVA",
+      "rating": null,
+      "episodes": { "sub": 1, "dub": null }
+    },
+    {
+      "id": "dragon-ball-z-special-1-bardock-the-father-of-goku-1334",
+      "name": "Dragon Ball Z Special 1: Bardock, The Father of Goku",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/3f/45/3f455fe83e1bf8ffce978cbd0995f22d/3f455fe83e1bf8ffce978cbd0995f22d.jpg",
+      "duration": "47m",
+      "type": "Special",
+      "rating": null,
+      "episodes": { "sub": 1, "dub": 1 }
+    },
+    {
+      "id": "dragon-ball-z-saiya-jin-zetsumetsu-keikaku-4279",
+      "name": "Dragon Ball Z: Saiya-jin Zetsumetsu Keikaku",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/94/42/9442447a0c7ef88b17f8edfb4f60c3a8/9442447a0c7ef88b17f8edfb4f60c3a8.jpg",
+      "duration": "30m",
+      "type": "OVA",
+      "rating": null,
+      "episodes": { "sub": 2, "dub": null }
+    },
+    {
+      "id": "dragon-ball-super-saiya-jin-zetsumetsu-keikaku-4740",
+      "name": "Dragon Ball: Super Saiya-jin Zetsumetsu Keikaku",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/07/f5/07f5f8dadfbee19e3bf964bed4884a77/07f5f8dadfbee19e3bf964bed4884a77.jpg",
+      "duration": "30m",
+      "type": "OVA",
+      "rating": null,
+      "episodes": { "sub": 1, "dub": null }
+    },
+    {
+      "id": "mirai-nikki-ova-2396",
+      "name": "Mirai Nikki OVA",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/da/31/da31f4ebbd3f1ad4254441fc0f04d5e8/da31f4ebbd3f1ad4254441fc0f04d5e8.jpg",
+      "duration": "8m",
+      "type": "OVA",
+      "rating": "18+",
+      "episodes": { "sub": 1, "dub": null }
+    },
+    {
+      "id": "the-future-diary-redial-1820",
+      "name": "The Future Diary: Redial",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/8b/3f/8b3f4685ebb80490cd66c985bbcf289f/8b3f4685ebb80490cd66c985bbcf289f.jpg",
+      "duration": "29m",
+      "type": "OVA",
+      "rating": "18+",
+      "episodes": { "sub": 1, "dub": null }
+    },
+    {
+      "id": "new-fist-of-the-north-star-3692",
+      "name": "New Fist of the North Star",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/12/04/1204df29e633eefc5ac33b2091a93036/1204df29e633eefc5ac33b2091a93036.jpg",
+      "duration": "58m",
+      "type": "OVA",
+      "rating": "18+",
+      "episodes": { "sub": 3, "dub": null }
+    },
+    {
+      "id": "mokei-senshi-gunpla-builders-beginning-g-5002",
+      "name": "Mokei Senshi Gunpla Builders Beginning G",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/59/e8/59e88cc9de02f84b978eec452e01d9dd/59e88cc9de02f84b978eec452e01d9dd.jpg",
+      "duration": "15m",
+      "type": "Special",
+      "rating": null,
+      "episodes": { "sub": 1, "dub": null }
+    },
+    {
+      "id": "bobobo-bo-bo-bobo-recap-7005",
+      "name": "Bobobo-bo Bo-bobo Recap",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/68/f9/68f95d31124745491d057fae48ce5b1a/68f95d31124745491d057fae48ce5b1a.jpg",
+      "duration": "25m",
+      "type": "Special",
+      "rating": null,
+      "episodes": { "sub": 1, "dub": null }
+    },
+    {
+      "id": "city-hunter-the-motion-picture-1517",
+      "name": "City Hunter: The Motion Picture",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/f4/d3/f4d34c57d2ba5c1bab71783d9d56e7a7/f4d34c57d2ba5c1bab71783d9d56e7a7.jpg",
+      "duration": "90m",
+      "type": "Special",
+      "rating": null,
+      "episodes": { "sub": 1, "dub": null }
+    },
+    {
+      "id": "haikyuu-movie-2-shousha-to-haisha-621",
+      "name": "Haikyuu!! Movie 2: Shousha to Haisha",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/24/93/24931525035956a5a82d12653923e15d/24931525035956a5a82d12653923e15d.jpg",
+      "duration": "88m",
+      "type": "Movie",
+      "rating": null,
+      "episodes": { "sub": 1, "dub": null }
+    },
+    {
+      "id": "the-boy-who-carried-a-guitar-kikaider-vs-inazuman-6063",
+      "name": "The Boy Who Carried a Guitar: Kikaider vs. Inazuman",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/1e/9e/1e9e02205260153f843328cd76d5826f/1e9e02205260153f843328cd76d5826f.jpg",
+      "duration": "28m",
+      "type": "Special",
+      "rating": null,
+      "episodes": { "sub": 1, "dub": null }
+    },
+    {
+      "id": "funny-faces-in-high-school-2416",
+      "name": "[RAW] Funny Faces in High School",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/70/b2/70b2be440688859d3c22811df098b7eb/70b2be440688859d3c22811df098b7eb.jpg",
+      "duration": "25m",
+      "type": "TV",
+      "rating": null,
+      "episodes": { "sub": 86, "dub": null }
+    },
+    {
+      "id": "gu-gu-ganmo-7807",
+      "name": "[RAW] Gu-Gu Ganmo",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/22/0e/220e4ba83eaa9bcb08e9e8cbe8d05102/220e4ba83eaa9bcb08e9e8cbe8d05102.jpg",
+      "duration": "25m",
+      "type": "TV",
+      "rating": null,
+      "episodes": { "sub": 50, "dub": null }
+    },
+    {
+      "id": "dangard-ace-6786",
+      "name": "[RAW] Dangard Ace",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/53/49/53493d04f82b15ca0de9ac64e7e1cb00/53493d04f82b15ca0de9ac64e7e1cb00.jpg",
+      "duration": "25m",
+      "type": "TV",
+      "rating": null,
+      "episodes": { "sub": 56, "dub": null }
+    },
+    {
+      "id": "shin-chuuka-ichiban-2nd-season-15546",
+      "name": "New Cooking Master Boy 2nd Season",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/d0/e6/d0e6c082bdca39a447b1ecb72dcafc4d/d0e6c082bdca39a447b1ecb72dcafc4d.jpg",
+      "duration": "24m",
+      "type": "TV",
+      "rating": null,
+      "episodes": { "sub": 12, "dub": null }
+    },
+    {
+      "id": "my-hero-academia-make-it-do-or-die-survival-training-3432",
+      "name": "My Hero Academia: Make It! Do-or-Die Survival Training",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/22/f0/22f07a9b643cdd601666c518fd59eec9/22f07a9b643cdd601666c518fd59eec9.jpg",
+      "duration": "23m",
+      "type": "ONA",
+      "rating": null,
+      "episodes": { "sub": 2, "dub": 2 }
+    },
+    {
+      "id": "yatogame-chan-kansatsu-nikki-sansatsume-15612",
+      "name": "Yatogame-chan Kansatsu Nikki Sansatsume",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/34/d0/34d0de20add738ab9352ae4ec79ba812/34d0de20add738ab9352ae4ec79ba812.jpg",
+      "duration": "3m",
+      "type": "TV",
+      "rating": null,
+      "episodes": { "sub": 12, "dub": null }
+    },
+    {
+      "id": "gintama-season-2-6",
+      "name": "Gintama Season 2",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/5a/2f/5a2f7d0736f223f096c459751f6f0bd6/5a2f7d0736f223f096c459751f6f0bd6.jpg",
+      "duration": "24m",
+      "type": "TV",
+      "rating": null,
+      "episodes": { "sub": 51, "dub": null }
+    },
+    {
+      "id": "hunter-x-hunter-2",
+      "name": "Hunter x Hunter",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/99/3c/993c0361975cce4c7fbb11f8558f9664/993c0361975cce4c7fbb11f8558f9664.jpg",
+      "duration": "23m",
+      "type": "TV",
+      "rating": null,
+      "episodes": { "sub": 148, "dub": 148 }
+    },
+    {
+      "id": "hunter-x-hunter-128",
+      "name": "Hunter x Hunter",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/45/c5/45c50af44712f05b30c9cbfba6283abb/45c50af44712f05b30c9cbfba6283abb.jpg",
+      "duration": "23m",
+      "type": "TV",
+      "rating": null,
+      "episodes": { "sub": 62, "dub": 62 }
+    },
+    {
+      "id": "toriko-1300",
+      "name": "Toriko",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/82/f0/82f0ba3df246ee32b51e16e976d074d3/82f0ba3df246ee32b51e16e976d074d3.jpg",
+      "duration": "23m",
+      "type": "TV",
+      "rating": null,
+      "episodes": { "sub": 147, "dub": null }
+    },
+    {
+      "id": "kindaichi-shounen-no-jikenbo-returns-2nd-season-akechi-keibu-no-jikenbo-3006",
+      "name": "Kindaichi Shounen no Jikenbo Returns 2nd Season: Akechi Keibu no Jikenbo",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/8a/ae/8aaeca0c28d95ce8b792a71458bbce19/8aaeca0c28d95ce8b792a71458bbce19.jpg",
+      "duration": "47m",
+      "type": "Special",
+      "rating": "18+",
+      "episodes": { "sub": 1, "dub": null }
+    },
+    {
+      "id": "attack-on-titan-season-2-150",
+      "name": "Attack on Titan Season 2",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/5d/97/5d97e8c9a57b03c06dd59650c0a3c693/5d97e8c9a57b03c06dd59650c0a3c693.jpg",
+      "duration": "24m",
+      "type": "TV",
+      "rating": "18+",
+      "episodes": { "sub": 12, "dub": 12 }
+    },
+    {
+      "id": "attack-on-titan-season-3-85",
+      "name": "Attack on Titan Season 3",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/98/b2/98b21bfbd9fa3d49ec80ba8fe75ed5cd/98b21bfbd9fa3d49ec80ba8fe75ed5cd.jpg",
+      "duration": "23m",
+      "type": "TV",
+      "rating": "18+",
+      "episodes": { "sub": 22, "dub": 22 }
+    },
+    {
+      "id": "duel-masters-13492",
+      "name": "[RAW] Duel Masters!!",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/f9/bc/f9bc1098c9de842624339550d56a26df/f9bc1098c9de842624339550d56a26df.jpg",
+      "duration": "24m",
+      "type": "TV",
+      "rating": null,
+      "episodes": { "sub": 51, "dub": null }
+    },
+    {
+      "id": "duel-masters-2017-8834",
+      "name": "[RAW] Duel Masters (2017)",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/cf/42/cf4224c5ba8ec4e59c21485952f6ab9a/cf4224c5ba8ec4e59c21485952f6ab9a.jpg",
+      "duration": "24m",
+      "type": "TV",
+      "rating": null,
+      "episodes": { "sub": 51, "dub": null }
+    },
+    {
+      "id": "tottemo-luckyman-4035",
+      "name": "[RAW] Tottemo! Luckyman",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/4e/c4/4ec4825a1516c2c0f4feebbdb29c2bf9/4ec4825a1516c2c0f4feebbdb29c2bf9.jpg",
+      "duration": "24m",
+      "type": "TV",
+      "rating": null,
+      "episodes": { "sub": 50, "dub": null }
+    },
+    {
+      "id": "duel-masters-victory-v3-8391",
+      "name": "[RAW] Duel Masters Victory V3",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/60/2c/602c9e0309c774b17f9a9c6f001f2028/602c9e0309c774b17f9a9c6f001f2028.jpg",
+      "duration": "24m",
+      "type": "TV",
+      "rating": null,
+      "episodes": { "sub": 51, "dub": null }
+    },
+    {
+      "id": "duel-masters-versus-revolution-final-9450",
+      "name": "[RAW] Duel Masters Versus Revolution Final",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/97/b9/97b9e5e6087f0e514daeaa93e22c9892/97b9e5e6087f0e514daeaa93e22c9892.jpg",
+      "duration": "24m",
+      "type": "TV",
+      "rating": null,
+      "episodes": { "sub": 51, "dub": null }
+    },
+    {
+      "id": "duel-masters-victory-v-8090",
+      "name": "[RAW] Duel Masters Victory V",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/b7/79/b77957b93a2b3bd8129ab6bbce6ddd58/b77957b93a2b3bd8129ab6bbce6ddd58.jpg",
+      "duration": "10m",
+      "type": "TV",
+      "rating": null,
+      "episodes": { "sub": 50, "dub": null }
     }
-  },
-  "seasons": [],
-  "mostPopularAnimes": [
+  ],
+  "genres": [
+    "Action",
+    "Adventure",
+    "Cars",
+    "Comedy",
+    "Dementia",
+    "Demons",
+    "Drama",
+    "Ecchi",
+    "Fantasy",
+    "Game",
+    "Harem",
+    "Historical",
+    "Horror",
+    "Isekai",
+    "Josei",
+    "Kids",
+    "Magic",
+    "Martial Arts",
+    "Mecha",
+    "Military",
+    "Music",
+    "Mystery",
+    "Parody",
+    "Police",
+    "Psychological",
+    "Romance",
+    "Samurai",
+    "School",
+    "Sci-Fi",
+    "Seinen",
+    "Shoujo",
+    "Shoujo Ai",
+    "Shounen",
+    "Shounen Ai",
+    "Slice of Life",
+    "Space",
+    "Sports",
+    "Super Power",
+    "Supernatural",
+    "Thriller",
+    "Vampire"
+  ],
+  "topAiringAnimes": [
     {
       "id": "one-piece-100",
       "name": "One Piece",
       "poster": "https://img.flawlessfiles.com/_r/300x400/100/54/90/5490cb32786d4f7fef0f40d7266df532/5490cb32786d4f7fef0f40d7266df532.jpg",
       "jname": "One Piece",
       "episodes": { "sub": 1086, "dub": 1036 },
-      "type": "TV"
-    },
-    {
-      "id": "naruto-shippuden-355",
-      "name": "Naruto: Shippuden",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/9c/bc/9cbcf87f54194742e7686119089478f8/9cbcf87f54194742e7686119089478f8.jpg",
-      "jname": "Naruto: Shippuuden",
-      "episodes": { "sub": 500, "dub": 500 },
-      "type": "TV"
-    },
-    {
-      "id": "demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc-18056",
-      "name": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/db/2f/db2f3ce7b9cab7fdc160b005bffb899a/db2f3ce7b9cab7fdc160b005bffb899a.png",
-      "jname": "Kimetsu no Yaiba: Katanakaji no Sato-hen",
-      "episodes": { "sub": 11, "dub": 11 },
-      "type": "TV"
-    },
-    {
-      "id": "black-clover-2404",
-      "name": "Black Clover",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/f5/8b/f58b0204c20ae3310f65ae7b8cb9987e/f58b0204c20ae3310f65ae7b8cb9987e.jpg",
-      "jname": "Black Clover",
-      "episodes": { "sub": 170, "dub": 170 },
-      "type": "TV"
-    },
-    {
-      "id": "bleach-806",
-      "name": "Bleach",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/bd/5a/bd5ae1d387a59c5abcf5e1a6a616728c/bd5ae1d387a59c5abcf5e1a6a616728c.jpg",
-      "jname": "Bleach",
-      "episodes": { "sub": 366, "dub": 366 },
-      "type": "TV"
-    },
-    {
-      "id": "boruto-naruto-next-generations-8143",
-      "name": "Boruto: Naruto Next Generations",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/32/c8/32c83e2ad4a43229996356840db3982c/32c83e2ad4a43229996356840db3982c.jpg",
-      "jname": "Boruto: Naruto Next Generations",
-      "episodes": { "sub": 293, "dub": 255 },
       "type": "TV"
     },
     {
@@ -92,562 +369,71 @@
       "type": "TV"
     },
     {
-      "id": "naruto-677",
-      "name": "Naruto",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/5d/b4/5db400c33f7494bc8ae96f9e634958d0/5db400c33f7494bc8ae96f9e634958d0.jpg",
-      "jname": "Naruto",
-      "episodes": { "sub": 220, "dub": 220 },
+      "id": "attack-on-titan-the-final-season-part-3-18329",
+      "name": "Attack on Titan: The Final Season Part 3",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/54/d3/54d3f59bcc7caf1539c701eb0a064ec9/54d3f59bcc7caf1539c701eb0a064ec9.png",
+      "jname": "Shingeki no Kyojin: The Final Season - Kanketsu-hen",
+      "episodes": { "sub": 2, "dub": 1 },
       "type": "TV"
     },
     {
-      "id": "spy-x-family-17977",
-      "name": "Spy x Family",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/88/bd/88bd17534dc4884f23027035d23d74e5/88bd17534dc4884f23027035d23d74e5.jpg",
-      "jname": "Spy x Family",
-      "episodes": { "sub": 12, "dub": 12 },
+      "id": "zom-100-bucket-list-of-the-dead-18423",
+      "name": "Zom 100: Bucket List of the Dead",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/f6/b0/f6b0c0889e49de49b34b3e72fbecbfdf/f6b0c0889e49de49b34b3e72fbecbfdf.png",
+      "jname": "Zom 100: Zombie ni Naru made ni Shitai 100 no Koto",
+      "episodes": { "sub": 9, "dub": 9 },
       "type": "TV"
     },
     {
-      "id": "jujutsu-kaisen-tv-534",
-      "name": "Jujutsu Kaisen (TV)",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/82/40/82402f796b7d84d7071ab1e03ff7747a/82402f796b7d84d7071ab1e03ff7747a.jpg",
-      "jname": "Jujutsu Kaisen (TV)",
-      "episodes": { "sub": 24, "dub": 24 },
+      "id": "the-eminence-in-shadow-season-2-18505",
+      "name": "The Eminence in Shadow Season 2",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/da/1c/da1cf05bd53f2ba693a62fc4b08f1e80/da1cf05bd53f2ba693a62fc4b08f1e80.jpg",
+      "jname": "Kage no Jitsuryokusha ni Naritakute! 2nd Season",
+      "episodes": { "sub": 9, "dub": 9 },
+      "type": "TV"
+    },
+    {
+      "id": "case-closed-323",
+      "name": "Case Closed",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/3b/18/3b185ed9d10aa300bb0cb7fc35b84999/3b185ed9d10aa300bb0cb7fc35b84999.jpg",
+      "jname": "Detective Conan",
+      "episodes": { "sub": 1105, "dub": 123 },
+      "type": "TV"
+    },
+    {
+      "id": "tokyo-revengers-tenjiku-hen-18575",
+      "name": "Tokyo Revengers: Tenjiku-hen",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/02/1c/021ca452bd8b38c15f2e3c60e4a8c2ca/021ca452bd8b38c15f2e3c60e4a8c2ca.jpg",
+      "jname": "Tokyo Revengers: Tenjiku-hen",
+      "episodes": { "sub": 9, "dub": null },
+      "type": "TV"
+    },
+    {
+      "id": "spy-x-family-season-2-18572",
+      "name": "Spy x Family Season 2",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/bf/3b/bf3ba12c4112c8a922280cca870510ed/bf3ba12c4112c8a922280cca870510ed.jpg",
+      "jname": "Spy x Family Season 2",
+      "episodes": { "sub": 9, "dub": 7 },
+      "type": "TV"
+    },
+    {
+      "id": "rurouni-kenshin-meiji-kenkaku-romantan-2023-18487",
+      "name": "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/5a/77/5a777cfb390fede844f84a3f85d246e1/5a777cfb390fede844f84a3f85d246e1.jpg",
+      "jname": "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
+      "episodes": { "sub": 22, "dub": 8 },
+      "type": "TV"
+    },
+    {
+      "id": "ragna-crimson-18566",
+      "name": "Ragna Crimson",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/cb/b2/cbb2c211b230fb106f65d302929a899f/cbb2c211b230fb106f65d302929a899f.jpg",
+      "jname": "Ragna Crimson",
+      "episodes": { "sub": 10, "dub": null },
       "type": "TV"
     }
   ],
-  "relatedAnimes": [
-    {
-      "id": "one-piece-episode-of-merry-the-tale-of-one-more-friend-293",
-      "name": "One Piece: Episode of Merry - The Tale of One More Friend",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/f9/c0/f9c03a6e40d324f2cfc22f870abe1c15/f9c03a6e40d324f2cfc22f870abe1c15.jpg",
-      "jname": "One Piece: Episode of Merry - Mou Hitori no Nakama no Monogatari",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Special"
-    },
-    {
-      "id": "one-piece-the-movie-10-strong-world-298",
-      "name": "One Piece: The Movie 10 - Strong World",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/de/58/de58e554fa74d9a5443799ab84cf0c65/de58e554fa74d9a5443799ab84cf0c65.jpg",
-      "jname": "One Piece Film: Strong World",
-      "episodes": { "sub": 1, "dub": 1 },
-      "type": "Movie"
-    },
-    {
-      "id": "one-piece-the-movie-12-film-z-299",
-      "name": "One Piece: The Movie 12 - Film Z",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/4f/20/4f20b80bbae084c6165821c4f490a22a/4f20b80bbae084c6165821c4f490a22a.jpg",
-      "jname": "One Piece Film: Z",
-      "episodes": { "sub": 1, "dub": 1 },
-      "type": "Movie"
-    },
-    {
-      "id": "one-piece-the-movie-14-stampede-316",
-      "name": "One Piece: The Movie 14 - Stampede",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/e8/a1/e8a122d878c53cddf5730946f3bae6fb/e8a122d878c53cddf5730946f3bae6fb.jpg",
-      "jname": "One Piece: The Movie 14 - Stampede",
-      "episodes": { "sub": 1, "dub": 1 },
-      "type": "Movie"
-    },
-    {
-      "id": "dragon-ball-z-325",
-      "name": "Dragon Ball Z",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/2a/c3/2ac32c050b4dff7747fcc7f64c01edbd/2ac32c050b4dff7747fcc7f64c01edbd.jpg",
-      "jname": "Dragon Ball Z",
-      "episodes": { "sub": 291, "dub": 291 },
-      "type": "TV"
-    },
-    {
-      "id": "one-piece-episode-of-nami-tears-of-a-navigator-and-the-bonds-of-friends-336",
-      "name": "One Piece: Episode of Nami - Tears of a Navigator and the Bonds of Friends",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/e8/ec/e8ec23b151d2e3e0a392c3ce9f4429b7/e8ec23b151d2e3e0a392c3ce9f4429b7.jpg",
-      "jname": "One Piece: Episode of Nami - Koukaishi no Namida to Nakama no Kizuna",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Special"
-    },
-    {
-      "id": "one-piece-film-strong-world-episode-0-499",
-      "name": "One Piece Film: Strong World Episode 0",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/22/8e/228ea6c39b625f78ae75fa95cf9e63ee/228ea6c39b625f78ae75fa95cf9e63ee.jpg",
-      "jname": "One Piece Film: Strong World Episode 0",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "OVA"
-    },
-    {
-      "id": "one-piece-the-movie-13-film-gold-550",
-      "name": "One Piece: The Movie 13 - Film: Gold",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/71/56/7156c377053c230cc42b66bbf7260325/7156c377053c230cc42b66bbf7260325.jpg",
-      "jname": "One Piece Film: Gold",
-      "episodes": { "sub": 1, "dub": 1 },
-      "type": "Movie"
-    },
-    {
-      "id": "one-piece-3d2y-15th-anniversary-609",
-      "name": "One Piece 3D2Y: 15th Anniversary",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/bc/f2/bcf230a574c9b8dabbc871043f0a8443/bcf230a574c9b8dabbc871043f0a8443.jpg",
-      "jname": "One Piece 3D2Y: Ace no shi wo Koete! Luffy Nakama Tono Chikai",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Special"
-    },
-    {
-      "id": "one-piece-episode-of-east-blue-634",
-      "name": "One Piece: Episode of East Blue",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/12/27/122753b7529b699e7ee65e31bdd85e17/122753b7529b699e7ee65e31bdd85e17.jpg",
-      "jname": "One Piece: Episode of East Blue - Luffy to 4-nin no Nakama no Daibouken",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Special"
-    },
-    {
-      "id": "one-piece-episode-of-sabo-the-three-brothers-bond-943",
-      "name": "One Piece: Episode of Sabo - The Three Brothers' Bond",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/c1/1a/c11aa8226ea5ae258307936838025535/c11aa8226ea5ae258307936838025535.jpg",
-      "jname": "One Piece: Episode of Sabo - 3 Kyoudai no Kizuna Kiseki no Saikai to Uketsugareru Ishi",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Special"
-    },
-    {
-      "id": "one-piece-baron-omatsuri-and-the-secret-island-1043",
-      "name": "One Piece: Baron Omatsuri and the Secret Island",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/f1/10/f1101d8772c508a881d49595b7c86679/f1101d8772c508a881d49595b7c86679.jpg",
-      "jname": "One Piece Movie 6: Omatsuri Danshaku to Himitsu no Shima",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Movie"
-    },
-    {
-      "id": "one-piece-baron-omatsuri-and-the-secret-island-1043",
-      "name": "One Piece: Baron Omatsuri and the Secret Island",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/f1/10/f1101d8772c508a881d49595b7c86679/f1101d8772c508a881d49595b7c86679.jpg",
-      "jname": "One Piece Movie 6: Omatsuri Danshaku to Himitsu no Shima",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Movie"
-    },
-    {
-      "id": "one-piece-episode-of-luffy-hand-island-adventure-1085",
-      "name": "One Piece: Episode of Luffy - Hand Island Adventure",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/31/b6/31b60e5d857308aac024e5981d47221a/31b60e5d857308aac024e5981d47221a.jpg",
-      "jname": "One Piece: Episode of Luffy - Hand Island no Bouken",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Special"
-    },
-    {
-      "id": "one-piece-dead-end-1284",
-      "name": "One Piece: Dead End",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/08/5b/085b2c99e12b21786da1a7cfdc314c42/085b2c99e12b21786da1a7cfdc314c42.jpg",
-      "jname": "One Piece Movie 4: Dead End no Bouken",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Movie"
-    },
-    {
-      "id": "one-piece-dead-end-1284",
-      "name": "One Piece: Dead End",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/08/5b/085b2c99e12b21786da1a7cfdc314c42/085b2c99e12b21786da1a7cfdc314c42.jpg",
-      "jname": "One Piece Movie 4: Dead End no Bouken",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Movie"
-    },
-    {
-      "id": "toriko-1300",
-      "name": "Toriko",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/82/f0/82f0ba3df246ee32b51e16e976d074d3/82f0ba3df246ee32b51e16e976d074d3.jpg",
-      "jname": "Toriko",
-      "episodes": { "sub": 147, "dub": null },
-      "type": "TV"
-    },
-    {
-      "id": "one-piece-movie-9-episode-of-chopper-plus-fuyu-ni-saku-kiseki-no-sakura-1481",
-      "name": "One Piece Movie 9: Episode of Chopper Plus - Fuyu ni Saku, Kiseki no Sakura",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/65/f8/65f80950ef7dd9fe39ee705123d90265/65f80950ef7dd9fe39ee705123d90265.jpg",
-      "jname": "One Piece Movie 9: Episode of Chopper Plus - Fuyu ni Saku, Kiseki no Sakura",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Movie"
-    },
-    {
-      "id": "one-piece-romance-dawn-story-1860",
-      "name": "One Piece: Romance Dawn Story",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/a7/d7/a7d7242012fbb0209ec15aba2e8edd67/a7d7242012fbb0209ec15aba2e8edd67.jpg",
-      "jname": "One Piece: Romance Dawn Story",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "OVA"
-    },
-    {
-      "id": "one-piece-special-protect-the-last-great-performance-1933",
-      "name": "One Piece Special: Protect! The Last Great Performance",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/4c/9d/4c9d06b236c92929ad415f78950dbf43/4c9d06b236c92929ad415f78950dbf43.jpg",
-      "jname": "One Piece: Mamore! Saigo no Dai Butai",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Special"
-    },
-    {
-      "id": "one-piece-the-movie-8-adventures-in-alabasta-2076",
-      "name": "One Piece: The Movie 8 - Adventures in Alabasta",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/a2/3e/a23edd40c184ec10e6acfbf6771231ca/a23edd40c184ec10e6acfbf6771231ca.jpg",
-      "jname": "One Piece Movie 8: Episode of Alabasta - Sabaku no Oujo to Kaizoku-tachi",
-      "episodes": { "sub": 1, "dub": 1 },
-      "type": "Movie"
-    },
-    {
-      "id": "one-piece-adventure-of-nebulandia-2254",
-      "name": "One Piece: Adventure of Nebulandia",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/31/b5/31b57d916ab1c020bea5aca7f50fe678/31b57d916ab1c020bea5aca7f50fe678.jpg",
-      "jname": "One Piece: Adventure of Nebulandia",
-      "episodes": { "sub": 1, "dub": 1 },
-      "type": "Special"
-    },
-    {
-      "id": "one-piece-movie-7-karakuri-jou-no-mecha-kyohei-2266",
-      "name": "One Piece Movie 7: Karakuri-jou no Mecha Kyohei",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/41/52/41526ff58363bf9cea33002c065296e0/41526ff58363bf9cea33002c065296e0.jpg",
-      "jname": "One Piece Movie 7: Karakuri-jou no Mecha Kyohei",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Movie"
-    },
-    {
-      "id": "one-piece-movie-7-karakuri-jou-no-mecha-kyohei-2266",
-      "name": "One Piece Movie 7: Karakuri-jou no Mecha Kyohei",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/41/52/41526ff58363bf9cea33002c065296e0/41526ff58363bf9cea33002c065296e0.jpg",
-      "jname": "One Piece Movie 7: Karakuri-jou no Mecha Kyohei",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Movie"
-    },
-    {
-      "id": "one-piece-special-open-upon-the-great-sea-a-fathers-huge-huge-dream-2347",
-      "name": "One Piece Special: Open Upon the Great Sea! A Father's Huge, HUGE Dream!",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/f7/62/f76225081860e89adacad5ef06af20f2/f76225081860e89adacad5ef06af20f2.jpg",
-      "jname": "One Piece: Oounabara ni Hirake! Dekkai Dekkai Chichi no Yume!",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Special"
-    },
-    {
-      "id": "one-piece-special-adventure-in-the-oceans-navel-2348",
-      "name": "One Piece Special: Adventure in the Ocean's Navel",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/87/8c/878cfee15c8fab4b1341462f72461cad/878cfee15c8fab4b1341462f72461cad.jpg",
-      "jname": "One Piece: Umi no Heso no Daibouken-hen",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Special"
-    },
-    {
-      "id": "one-piece-special-adventure-in-the-oceans-navel-2348",
-      "name": "One Piece Special: Adventure in the Ocean's Navel",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/87/8c/878cfee15c8fab4b1341462f72461cad/878cfee15c8fab4b1341462f72461cad.jpg",
-      "jname": "One Piece: Umi no Heso no Daibouken-hen",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Special"
-    },
-    {
-      "id": "one-piece-the-curse-of-the-sacred-sword-2451",
-      "name": "One Piece: The Curse of the Sacred Sword",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/90/0d/900d9390ae10b86336a2acad56acc976/900d9390ae10b86336a2acad56acc976.jpg",
-      "jname": "One Piece Movie 5: Norowareta Seiken",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Movie"
-    },
-    {
-      "id": "one-piece-the-curse-of-the-sacred-sword-2451",
-      "name": "One Piece: The Curse of the Sacred Sword",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/90/0d/900d9390ae10b86336a2acad56acc976/900d9390ae10b86336a2acad56acc976.jpg",
-      "jname": "One Piece Movie 5: Norowareta Seiken",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Movie"
-    },
-    {
-      "id": "one-piece-special-the-detective-memoirs-of-chief-straw-hat-luffy-2538",
-      "name": "One Piece Special: The Detective Memoirs of Chief Straw Hat Luffy",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/1e/92/1e92eef56e90c0a4c2457b68f8da51e3/1e92eef56e90c0a4c2457b68f8da51e3.jpg",
-      "jname": "One Piece: Nenmatsu Tokubetsu Kikaku! Mugiwara no Luffy Oyabun Torimonochou",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Special"
-    },
-    {
-      "id": "one-piece-glorious-island-2688",
-      "name": "One Piece: Glorious Island",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/62/21/622144a3ae59c58a9cfa2787c27722cb/622144a3ae59c58a9cfa2787c27722cb.jpg",
-      "jname": "One Piece: Glorious Island",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Special"
-    },
-    {
-      "id": "one-piece-djangos-dance-carnival-2761",
-      "name": "One Piece: Django's Dance Carnival",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/ca/6a/ca6a1dfa56f1bf1fdc8bf073860b9f01/ca6a1dfa56f1bf1fdc8bf073860b9f01.jpg",
-      "jname": "One Piece: Jango no Dance Carnival",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "ONA"
-    },
-    {
-      "id": "one-piece-clockwork-island-adventure-2776",
-      "name": "One Piece: Clockwork Island Adventure",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/ec/52/ec524a9783f942b07a6ddd8d775b2cdb/ec524a9783f942b07a6ddd8d775b2cdb.jpg",
-      "jname": "One Piece Movie 2: Nejimaki-jima no Daibouken",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Movie"
-    },
-    {
-      "id": "one-piece-clockwork-island-adventure-2776",
-      "name": "One Piece: Clockwork Island Adventure",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/ec/52/ec524a9783f942b07a6ddd8d775b2cdb/ec524a9783f942b07a6ddd8d775b2cdb.jpg",
-      "jname": "One Piece Movie 2: Nejimaki-jima no Daibouken",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Movie"
-    },
-    {
-      "id": "one-piece-soccer-king-of-dreams-2777",
-      "name": "One Piece: Soccer King of Dreams",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/d5/03/d503eeb571d83c10b5d937275e397d63/d503eeb571d83c10b5d937275e397d63.jpg",
-      "jname": "One Piece: Yume no Soccer Ou!",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Movie"
-    },
-    {
-      "id": "one-piece-recap-2836",
-      "name": "One Piece Recap",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/80/cb/80cbbff9ab97108fb57908d05930133a/80cbbff9ab97108fb57908d05930133a.jpg",
-      "jname": "One Piece Recap",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "OVA"
-    },
-    {
-      "id": "one-piece-movie-1-3096",
-      "name": "One Piece Movie 1",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/ff/73/ff736656ba002e0dd51363c3d889d9ff/ff736656ba002e0dd51363c3d889d9ff.jpg",
-      "jname": "One Piece Movie 1",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Movie"
-    },
-    {
-      "id": "one-piece-movie-1-3096",
-      "name": "One Piece Movie 1",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/ff/73/ff736656ba002e0dd51363c3d889d9ff/ff736656ba002e0dd51363c3d889d9ff.jpg",
-      "jname": "One Piece Movie 1",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Movie"
-    },
-    {
-      "id": "one-piece-episode-of-skypiea-3097",
-      "name": "One Piece: Episode of Skypiea",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/6a/59/6a593442adebb95308e506e969852aa0/6a593442adebb95308e506e969852aa0.jpg",
-      "jname": "One Piece: Episode of Sorajima",
-      "episodes": { "sub": 1, "dub": 1 },
-      "type": "Special"
-    },
-    {
-      "id": "one-piece-3d-strawhat-chase-3188",
-      "name": "One Piece 3D: Strawhat Chase",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/01/60/01605691c2a52ce8c5f3226ec4a631a9/01605691c2a52ce8c5f3226ec4a631a9.jpg",
-      "jname": "One Piece 3D: Mugiwara Chase",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Movie"
-    },
-    {
-      "id": "one-piece-mezase-kaizoku-yakyuu-ou-3391",
-      "name": "One Piece: Take Aim! The Pirate Baseball King",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/5d/09/5d09255209e6f32a295d81557416c403/5d09255209e6f32a295d81557416c403.jpg",
-      "jname": "One Piece: Mezase! Kaizoku Yakyuu Ou",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "OVA"
-    },
-    {
-      "id": "one-piece-3d-gekisou-trap-coaster-3400",
-      "name": "One Piece 3D: Gekisou! Trap Coaster",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/f0/a8/f0a890203ee84a3c205d149b6e91a724/f0a890203ee84a3c205d149b6e91a724.jpg",
-      "jname": "One Piece 3D: Gekisou! Trap Coaster",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "OVA"
-    },
-    {
-      "id": "one-piece-chopper-kingdom-of-strange-animal-island-3533",
-      "name": "One Piece: Chopper Kingdom of Strange Animal Island",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/1f/ed/1fed4b5260a27fe18d3e2dee6e5c068a/1fed4b5260a27fe18d3e2dee6e5c068a.jpg",
-      "jname": "One Piece Movie 3: Chinjuu-jima no Chopper Oukoku",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Movie"
-    },
-    {
-      "id": "one-piece-chopper-kingdom-of-strange-animal-island-3533",
-      "name": "One Piece: Chopper Kingdom of Strange Animal Island",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/1f/ed/1fed4b5260a27fe18d3e2dee6e5c068a/1fed4b5260a27fe18d3e2dee6e5c068a.jpg",
-      "jname": "One Piece Movie 3: Chinjuu-jima no Chopper Oukoku",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "Movie"
-    },
-    {
-      "id": "one-piece-defeat-the-pirate-ganzack-4498",
-      "name": "One Piece: Defeat the Pirate Ganzack!",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/cf/42/cf42f6e03566212945df91b25bb62510/cf42f6e03566212945df91b25bb62510.jpg",
-      "jname": "One Piece: Taose! Kaizoku Ganzack",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "OVA"
-    },
-    {
-      "id": "one-piece-defeat-the-pirate-ganzack-4498",
-      "name": "One Piece: Defeat the Pirate Ganzack!",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/cf/42/cf42f6e03566212945df91b25bb62510/cf42f6e03566212945df91b25bb62510.jpg",
-      "jname": "One Piece: Taose! Kaizoku Ganzack",
-      "episodes": { "sub": 1, "dub": null },
-      "type": "OVA"
-    }
-  ],
-  "recommendedAnimes": [
-    {
-      "id": "before-green-gables-1342",
-      "name": "Before Green Gables",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/71/a5/71a50d962a2fff9f00ad31f27f93c62b/71a50d962a2fff9f00ad31f27f93c62b.jpg",
-      "duration": "20m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 39, "dub": null }
-    },
-    {
-      "id": "konohana-kitan-1343",
-      "name": "Konohana Kitan",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/6e/ce/6ecebdf5349b111414f240835ad5da32/6ecebdf5349b111414f240835ad5da32.jpg",
-      "duration": "23m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 12, "dub": 12 }
-    },
-    {
-      "id": "the-irregular-at-magic-high-school-1344",
-      "name": "The Irregular at Magic High School",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/54/90/54902363e8212b4bfc2913fb9dd2fbc3/54902363e8212b4bfc2913fb9dd2fbc3.jpg",
-      "duration": "23m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 26, "dub": 26 }
-    },
-    {
-      "id": "the-daughter-of-twenty-faces-1345",
-      "name": "The Daughter of Twenty Faces",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/6a/e7/6ae7d734d6e70803ab563af0c6c51cb7/6ae7d734d6e70803ab563af0c6c51cb7.jpg",
-      "duration": "22m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 22, "dub": null }
-    },
-    {
-      "id": "sengoku-basara-samurai-kings-2-1348",
-      "name": "Sengoku Basara: Samurai Kings 2",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/f6/25/f625290b36e272ca54bea5b401a85a67/f625290b36e272ca54bea5b401a85a67.jpg",
-      "duration": "24m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 12, "dub": 12 }
-    },
-    {
-      "id": "the-prince-of-tennis-ii-1349",
-      "name": "The Prince of Tennis II",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/d2/b8/d2b84a8324def797365301e5ccf08166/d2b84a8324def797365301e5ccf08166.jpg",
-      "duration": "23m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 13, "dub": null }
-    },
-    {
-      "id": "towanoquon-the-return-of-the-invincible-1355",
-      "name": "Towanoquon: The Return of the Invincible",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/99/30/99303317cfa45639de0a3a10060427ac/99303317cfa45639de0a3a10060427ac.jpg",
-      "duration": "48m",
-      "type": "Movie",
-      "rating": null,
-      "episodes": { "sub": 1, "dub": 1 }
-    },
-    {
-      "id": "useless-witch-doremi-kaboom-1358",
-      "name": "Useless Witch Doremi Kaboom!",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/4c/68/4c68ac13b8c751c0375cde39b4bf9613/4c68ac13b8c751c0375cde39b4bf9613.jpg",
-      "duration": "24m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 51, "dub": null }
-    },
-    {
-      "id": "cautious-hero-the-hero-is-overpowered-but-overly-cautious-1350",
-      "name": "Cautious Hero: The Hero Is Overpowered but Overly Cautious",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/a2/78/a278dacd7fe9375618ca863141a4de32/a278dacd7fe9375618ca863141a4de32.jpg",
-      "duration": "23m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 12, "dub": 12 }
-    },
-    {
-      "id": "slam-dunk-shouhoku-saidai-no-kiki-moero-sakuragi-hanamichi-1351",
-      "name": "Slam Dunk: Shouhoku Saidai no Kiki! Moero Sakuragi Hanamichi",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/0e/4d/0e4d28baefdb72974f5eb34beb1d14af/0e4d28baefdb72974f5eb34beb1d14af.jpg",
-      "duration": "40m",
-      "type": "Movie",
-      "rating": null,
-      "episodes": { "sub": 1, "dub": null }
-    },
-    {
-      "id": "heavens-lost-property-forte-1352",
-      "name": "Heaven's Lost Property: Forte",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/a9/9f/a99f79682279b38223e628fb1428d7b5/a99f79682279b38223e628fb1428d7b5.jpg",
-      "duration": "23m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 12, "dub": 12 }
-    },
-    {
-      "id": "special-a-sa-1353",
-      "name": "Special A (S.A)",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/de/14/de14f6cd0de5800076dd329c89590800/de14f6cd0de5800076dd329c89590800.jpg",
-      "duration": "24m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 24, "dub": 24 }
-    },
-    {
-      "id": "my-little-monster-1354",
-      "name": "My Little Monster",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/d1/0e/d10e102789431df0d4b3af5baeed6017/d10e102789431df0d4b3af5baeed6017.jpg",
-      "duration": "24m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 13, "dub": null }
-    },
-    {
-      "id": "world-trigger-1356",
-      "name": "World Trigger",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/1b/d3/1bd36737214ea433c9c182685062d8dd/1bd36737214ea433c9c182685062d8dd.jpg",
-      "duration": "23m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 73, "dub": 73 }
-    },
-    {
-      "id": "planetarian-1359",
-      "name": "Planetarian",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/bf/4e/bf4e5b13c43ce05e230fa9e40898a5f5/bf4e5b13c43ce05e230fa9e40898a5f5.jpg",
-      "duration": "18m",
-      "type": "ONA",
-      "rating": null,
-      "episodes": { "sub": 5, "dub": 5 }
-    },
-    {
-      "id": "psycho-pass-3-1360",
-      "name": "Psycho-Pass 3",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/7f/6d/7f6dbd24f89d9bbea095ee7a0ef8a6be/7f6dbd24f89d9bbea095ee7a0ef8a6be.jpg",
-      "duration": "45m",
-      "type": "TV",
-      "rating": "18+",
-      "episodes": { "sub": 8, "dub": null }
-    },
-    {
-      "id": "samurai-x-the-motion-picture-requiem-for-the-restoration-royalists-1361",
-      "name": "Samurai X: The Motion Picture - Requiem for the Restoration Royalists",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/64/62/64624cd1cde09536960631cc981c172b/64624cd1cde09536960631cc981c172b.jpg",
-      "duration": "91m",
-      "type": "Movie",
-      "rating": "18+",
-      "episodes": { "sub": 1, "dub": 1 }
-    },
-    {
-      "id": "sarazanmai-1363",
-      "name": "Sarazanmai",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/81/33/8133480cda7490afc98232360b7fd9fe/8133480cda7490afc98232360b7fd9fe.jpg",
-      "duration": "22m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 11, "dub": 11 }
-    }
-  ]
+  "totalPages": 40,
+  "hasNextPage": true,
+  "currentPage": 1
 }

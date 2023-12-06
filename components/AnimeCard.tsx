@@ -10,6 +10,7 @@ import {
   TopUpcomingAnime,
   TrendingAnime,
 } from '@/interfaces/anime';
+import { RelatedAnime } from '@/interfaces/details';
 
 interface AnimeCardProps {
   anime:
@@ -18,12 +19,22 @@ interface AnimeCardProps {
     | TopUpcomingAnime
     | LatestEpisodeAnime
     | TrendingAnime
-    | SpotlightAnime;
+    | SpotlightAnime
+    | RelatedAnime;
+  linkFrom: 'main' | 'genre';
 }
 
-const AnimeCard: FC<AnimeCardProps> = ({ anime }) => {
+const AnimeCard: FC<AnimeCardProps> = ({ anime, linkFrom }) => {
   return (
-    <Link href={`/(tabs)/home/anime/${anime.id}`} asChild>
+    <Link
+      href={
+        linkFrom === 'main'
+          ? `/(tabs)/home/anime/${anime.id}`
+          : linkFrom === 'genre'
+            ? `/(tabs)/browse/anime/${anime.id}`
+            : `/(tabs)/home/anime/${anime.id}`
+      }
+      asChild>
       <Card width={150} height={250} backgroundColor="$colorTransparent">
         <Card.Header p={0}>
           <Image
