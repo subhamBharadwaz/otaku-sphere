@@ -1,248 +1,85 @@
 {
-  "genreName": "Shounen Anime",
   "animes": [
     {
-      "id": "ranma-ova-906",
-      "name": "Ranma ½ OVA",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/06/c9/06c902b091ea5ae2c711b6e00fa3705a/06c902b091ea5ae2c711b6e00fa3705a.jpg",
-      "duration": "30m",
-      "type": "OVA",
-      "rating": null,
-      "episodes": { "sub": 6, "dub": 6 }
+      "id": "attack-on-titan-the-final-season-part-3-18329",
+      "name": "Attack on Titan: The Final Season Part 3",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/54/d3/54d3f59bcc7caf1539c701eb0a064ec9/54d3f59bcc7caf1539c701eb0a064ec9.png",
+      "duration": "61m",
+      "type": "TV",
+      "rating": "18+",
+      "episodes": { "sub": 2, "dub": 1 }
     },
     {
-      "id": "black-butler-special-1401",
-      "name": "Black Butler Special",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/70/66/706665bef0c29fedaf8ff2e55b69f9d7/706665bef0c29fedaf8ff2e55b69f9d7.jpg",
-      "duration": "26m",
-      "type": "Special",
-      "rating": null,
-      "episodes": { "sub": 1, "dub": null }
-    },
-    {
-      "id": "shattered-angels-5860",
-      "name": "Shattered Angels",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/67/51/6751e8c65c3ca0b24dbc4ca6106126fe/6751e8c65c3ca0b24dbc4ca6106126fe.jpg",
+      "id": "attack-on-titan-final-season-part-2-17753",
+      "name": "Attack on Titan: Final Season, Part 2",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/16/08/160831b6a0c1303e1439925d8f8c7395/160831b6a0c1303e1439925d8f8c7395.jpg",
       "duration": "24m",
+      "type": "TV",
+      "rating": "18+",
+      "episodes": { "sub": 12, "dub": 12 }
+    },
+    {
+      "id": "attack-on-titan-final-season-part-1-15548",
+      "name": "Attack on Titan: Final Season, Part 1",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/83/da/83da53919d7a20332be01686141f18f6/83da53919d7a20332be01686141f18f6.jpg",
+      "duration": "23m",
+      "type": "TV",
+      "rating": null,
+      "episodes": { "sub": 16, "dub": 16 }
+    },
+    {
+      "id": "attack-on-titan-junior-high-3609",
+      "name": "Attack on Titan: Junior High",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/3f/3f/3f3f8b29c4c90a31b150ba24f13c98fb/3f3f8b29c4c90a31b150ba24f13c98fb.jpg",
+      "duration": "17m",
       "type": "TV",
       "rating": null,
       "episodes": { "sub": 12, "dub": 12 }
     },
     {
-      "id": "sket-dance-imouto-no-nayami-ni-nayamu-ani-ni-nayamu-imouto-to-sono-nakama-tachi-575",
-      "name": "SKET Dance: Imouto no Nayami ni Nayamu Ani ni Nayamu Imouto to Sono Nakama-tachi",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/62/99/62992497b20f6ed077ffa6d0d9ec846f/62992497b20f6ed077ffa6d0d9ec846f.jpg",
-      "duration": "27m",
-      "type": "OVA",
-      "rating": null,
-      "episodes": { "sub": 1, "dub": null }
-    },
-    {
-      "id": "dragon-ball-z-special-1-bardock-the-father-of-goku-1334",
-      "name": "Dragon Ball Z Special 1: Bardock, The Father of Goku",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/3f/45/3f455fe83e1bf8ffce978cbd0995f22d/3f455fe83e1bf8ffce978cbd0995f22d.jpg",
-      "duration": "47m",
-      "type": "Special",
-      "rating": null,
-      "episodes": { "sub": 1, "dub": 1 }
-    },
-    {
-      "id": "dragon-ball-z-saiya-jin-zetsumetsu-keikaku-4279",
-      "name": "Dragon Ball Z: Saiya-jin Zetsumetsu Keikaku",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/94/42/9442447a0c7ef88b17f8edfb4f60c3a8/9442447a0c7ef88b17f8edfb4f60c3a8.jpg",
-      "duration": "30m",
-      "type": "OVA",
-      "rating": null,
-      "episodes": { "sub": 2, "dub": null }
-    },
-    {
-      "id": "dragon-ball-super-saiya-jin-zetsumetsu-keikaku-4740",
-      "name": "Dragon Ball: Super Saiya-jin Zetsumetsu Keikaku",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/07/f5/07f5f8dadfbee19e3bf964bed4884a77/07f5f8dadfbee19e3bf964bed4884a77.jpg",
-      "duration": "30m",
-      "type": "OVA",
-      "rating": null,
-      "episodes": { "sub": 1, "dub": null }
-    },
-    {
-      "id": "mirai-nikki-ova-2396",
-      "name": "Mirai Nikki OVA",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/da/31/da31f4ebbd3f1ad4254441fc0f04d5e8/da31f4ebbd3f1ad4254441fc0f04d5e8.jpg",
-      "duration": "8m",
-      "type": "OVA",
+      "id": "attack-on-titan-chronicle-2600",
+      "name": "Attack on Titan: Chronicle",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/37/13/3713cf887e4098f283fef5b0336e6083/3713cf887e4098f283fef5b0336e6083.jpg",
+      "duration": "121m",
+      "type": "Movie",
       "rating": "18+",
       "episodes": { "sub": 1, "dub": null }
     },
     {
-      "id": "the-future-diary-redial-1820",
-      "name": "The Future Diary: Redial",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/8b/3f/8b3f4685ebb80490cd66c985bbcf289f/8b3f4685ebb80490cd66c985bbcf289f.jpg",
-      "duration": "29m",
-      "type": "OVA",
+      "id": "attack-on-titan-crimson-bow-and-arrow-1233",
+      "name": "Attack on Titan: Crimson Bow and Arrow",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/f8/b7/f8b79c1c7b8153e7b5c64f0cf8b959ef/f8b79c1c7b8153e7b5c64f0cf8b959ef.jpg",
+      "duration": "118m",
+      "type": "Movie",
       "rating": "18+",
       "episodes": { "sub": 1, "dub": null }
     },
     {
-      "id": "new-fist-of-the-north-star-3692",
-      "name": "New Fist of the North Star",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/12/04/1204df29e633eefc5ac33b2091a93036/1204df29e633eefc5ac33b2091a93036.jpg",
-      "duration": "58m",
+      "id": "attack-on-titan-wings-of-freedom-993",
+      "name": "Attack on Titan: Wings of Freedom",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/57/89/5789753c0b623c288cf8d70bc8e77325/5789753c0b623c288cf8d70bc8e77325.jpg",
+      "duration": "120m",
+      "type": "Movie",
+      "rating": "18+",
+      "episodes": { "sub": 1, "dub": null }
+    },
+    {
+      "id": "attack-on-titan-lost-girls-947",
+      "name": "Attack on Titan: Lost Girls",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/ae/9e/ae9effd6c9aba5c4ba6b68f2901c20c9/ae9effd6c9aba5c4ba6b68f2901c20c9.jpg",
+      "duration": "25m",
       "type": "OVA",
       "rating": "18+",
       "episodes": { "sub": 3, "dub": null }
     },
     {
-      "id": "mokei-senshi-gunpla-builders-beginning-g-5002",
-      "name": "Mokei Senshi Gunpla Builders Beginning G",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/59/e8/59e88cc9de02f84b978eec452e01d9dd/59e88cc9de02f84b978eec452e01d9dd.jpg",
-      "duration": "15m",
-      "type": "Special",
-      "rating": null,
-      "episodes": { "sub": 1, "dub": null }
-    },
-    {
-      "id": "bobobo-bo-bo-bobo-recap-7005",
-      "name": "Bobobo-bo Bo-bobo Recap",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/68/f9/68f95d31124745491d057fae48ce5b1a/68f95d31124745491d057fae48ce5b1a.jpg",
-      "duration": "25m",
-      "type": "Special",
-      "rating": null,
-      "episodes": { "sub": 1, "dub": null }
-    },
-    {
-      "id": "city-hunter-the-motion-picture-1517",
-      "name": "City Hunter: The Motion Picture",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/f4/d3/f4d34c57d2ba5c1bab71783d9d56e7a7/f4d34c57d2ba5c1bab71783d9d56e7a7.jpg",
-      "duration": "90m",
-      "type": "Special",
-      "rating": null,
-      "episodes": { "sub": 1, "dub": null }
-    },
-    {
-      "id": "haikyuu-movie-2-shousha-to-haisha-621",
-      "name": "Haikyuu!! Movie 2: Shousha to Haisha",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/24/93/24931525035956a5a82d12653923e15d/24931525035956a5a82d12653923e15d.jpg",
-      "duration": "88m",
-      "type": "Movie",
-      "rating": null,
-      "episodes": { "sub": 1, "dub": null }
-    },
-    {
-      "id": "the-boy-who-carried-a-guitar-kikaider-vs-inazuman-6063",
-      "name": "The Boy Who Carried a Guitar: Kikaider vs. Inazuman",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/1e/9e/1e9e02205260153f843328cd76d5826f/1e9e02205260153f843328cd76d5826f.jpg",
-      "duration": "28m",
-      "type": "Special",
-      "rating": null,
-      "episodes": { "sub": 1, "dub": null }
-    },
-    {
-      "id": "funny-faces-in-high-school-2416",
-      "name": "[RAW] Funny Faces in High School",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/70/b2/70b2be440688859d3c22811df098b7eb/70b2be440688859d3c22811df098b7eb.jpg",
-      "duration": "25m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 86, "dub": null }
-    },
-    {
-      "id": "gu-gu-ganmo-7807",
-      "name": "[RAW] Gu-Gu Ganmo",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/22/0e/220e4ba83eaa9bcb08e9e8cbe8d05102/220e4ba83eaa9bcb08e9e8cbe8d05102.jpg",
-      "duration": "25m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 50, "dub": null }
-    },
-    {
-      "id": "dangard-ace-6786",
-      "name": "[RAW] Dangard Ace",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/53/49/53493d04f82b15ca0de9ac64e7e1cb00/53493d04f82b15ca0de9ac64e7e1cb00.jpg",
-      "duration": "25m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 56, "dub": null }
-    },
-    {
-      "id": "shin-chuuka-ichiban-2nd-season-15546",
-      "name": "New Cooking Master Boy 2nd Season",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/d0/e6/d0e6c082bdca39a447b1ecb72dcafc4d/d0e6c082bdca39a447b1ecb72dcafc4d.jpg",
-      "duration": "24m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 12, "dub": null }
-    },
-    {
-      "id": "my-hero-academia-make-it-do-or-die-survival-training-3432",
-      "name": "My Hero Academia: Make It! Do-or-Die Survival Training",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/22/f0/22f07a9b643cdd601666c518fd59eec9/22f07a9b643cdd601666c518fd59eec9.jpg",
-      "duration": "23m",
-      "type": "ONA",
-      "rating": null,
-      "episodes": { "sub": 2, "dub": 2 }
-    },
-    {
-      "id": "yatogame-chan-kansatsu-nikki-sansatsume-15612",
-      "name": "Yatogame-chan Kansatsu Nikki Sansatsume",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/34/d0/34d0de20add738ab9352ae4ec79ba812/34d0de20add738ab9352ae4ec79ba812.jpg",
-      "duration": "3m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 12, "dub": null }
-    },
-    {
-      "id": "gintama-season-2-6",
-      "name": "Gintama Season 2",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/5a/2f/5a2f7d0736f223f096c459751f6f0bd6/5a2f7d0736f223f096c459751f6f0bd6.jpg",
-      "duration": "24m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 51, "dub": null }
-    },
-    {
-      "id": "hunter-x-hunter-2",
-      "name": "Hunter x Hunter",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/99/3c/993c0361975cce4c7fbb11f8558f9664/993c0361975cce4c7fbb11f8558f9664.jpg",
-      "duration": "23m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 148, "dub": 148 }
-    },
-    {
-      "id": "hunter-x-hunter-128",
-      "name": "Hunter x Hunter",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/45/c5/45c50af44712f05b30c9cbfba6283abb/45c50af44712f05b30c9cbfba6283abb.jpg",
-      "duration": "23m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 62, "dub": 62 }
-    },
-    {
-      "id": "toriko-1300",
-      "name": "Toriko",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/82/f0/82f0ba3df246ee32b51e16e976d074d3/82f0ba3df246ee32b51e16e976d074d3.jpg",
-      "duration": "23m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 147, "dub": null }
-    },
-    {
-      "id": "kindaichi-shounen-no-jikenbo-returns-2nd-season-akechi-keibu-no-jikenbo-3006",
-      "name": "Kindaichi Shounen no Jikenbo Returns 2nd Season: Akechi Keibu no Jikenbo",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/8a/ae/8aaeca0c28d95ce8b792a71458bbce19/8aaeca0c28d95ce8b792a71458bbce19.jpg",
-      "duration": "47m",
-      "type": "Special",
-      "rating": "18+",
-      "episodes": { "sub": 1, "dub": null }
-    },
-    {
-      "id": "attack-on-titan-season-2-150",
-      "name": "Attack on Titan Season 2",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/5d/97/5d97e8c9a57b03c06dd59650c0a3c693/5d97e8c9a57b03c06dd59650c0a3c693.jpg",
+      "id": "attack-on-titan-112",
+      "name": "Attack on Titan",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/de/bf/debf027d032c6d40b91fab16b2ff9bd4/debf027d032c6d40b91fab16b2ff9bd4.jpg",
       "duration": "24m",
       "type": "TV",
       "rating": "18+",
-      "episodes": { "sub": 12, "dub": 12 }
+      "episodes": { "sub": 25, "dub": 25 }
     },
     {
       "id": "attack-on-titan-season-3-85",
@@ -254,110 +91,72 @@
       "episodes": { "sub": 22, "dub": 22 }
     },
     {
-      "id": "duel-masters-13492",
-      "name": "[RAW] Duel Masters!!",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/f9/bc/f9bc1098c9de842624339550d56a26df/f9bc1098c9de842624339550d56a26df.jpg",
-      "duration": "24m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 51, "dub": null }
+      "id": "attack-on-titan-no-regrets-168",
+      "name": "Attack on Titan: No Regrets",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/0b/1d/0b1d36294038c6094016be2c5176dd79/0b1d36294038c6094016be2c5176dd79.jpg",
+      "duration": "27m",
+      "type": "OVA",
+      "rating": "18+",
+      "episodes": { "sub": 2, "dub": null }
     },
     {
-      "id": "duel-masters-2017-8834",
-      "name": "[RAW] Duel Masters (2017)",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/cf/42/cf4224c5ba8ec4e59c21485952f6ab9a/cf4224c5ba8ec4e59c21485952f6ab9a.jpg",
+      "id": "attack-on-titan-season-2-150",
+      "name": "Attack on Titan Season 2",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/5d/97/5d97e8c9a57b03c06dd59650c0a3c693/5d97e8c9a57b03c06dd59650c0a3c693.jpg",
       "duration": "24m",
       "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 51, "dub": null }
+      "rating": "18+",
+      "episodes": { "sub": 12, "dub": 12 }
     },
     {
-      "id": "tottemo-luckyman-4035",
-      "name": "[RAW] Tottemo! Luckyman",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/4e/c4/4ec4825a1516c2c0f4feebbdb29c2bf9/4ec4825a1516c2c0f4feebbdb29c2bf9.jpg",
-      "duration": "24m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 50, "dub": null }
-    },
-    {
-      "id": "duel-masters-victory-v3-8391",
-      "name": "[RAW] Duel Masters Victory V3",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/60/2c/602c9e0309c774b17f9a9c6f001f2028/602c9e0309c774b17f9a9c6f001f2028.jpg",
-      "duration": "24m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 51, "dub": null }
-    },
-    {
-      "id": "duel-masters-versus-revolution-final-9450",
-      "name": "[RAW] Duel Masters Versus Revolution Final",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/97/b9/97b9e5e6087f0e514daeaa93e22c9892/97b9e5e6087f0e514daeaa93e22c9892.jpg",
-      "duration": "24m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 51, "dub": null }
-    },
-    {
-      "id": "duel-masters-victory-v-8090",
-      "name": "[RAW] Duel Masters Victory V",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/b7/79/b77957b93a2b3bd8129ab6bbce6ddd58/b77957b93a2b3bd8129ab6bbce6ddd58.jpg",
-      "duration": "10m",
-      "type": "TV",
-      "rating": null,
-      "episodes": { "sub": 50, "dub": null }
+      "id": "attack-on-titan-ova-761",
+      "name": "Attack on Titan OVA",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/c5/63/c563690ade996fc0f7788a8e961ae7e6/c563690ade996fc0f7788a8e961ae7e6.jpg",
+      "duration": "23m",
+      "type": "OVA",
+      "rating": "18+",
+      "episodes": { "sub": 3, "dub": null }
     }
   ],
-  "genres": [
-    "Action",
-    "Adventure",
-    "Cars",
-    "Comedy",
-    "Dementia",
-    "Demons",
-    "Drama",
-    "Ecchi",
-    "Fantasy",
-    "Game",
-    "Harem",
-    "Historical",
-    "Horror",
-    "Isekai",
-    "Josei",
-    "Kids",
-    "Magic",
-    "Martial Arts",
-    "Mecha",
-    "Military",
-    "Music",
-    "Mystery",
-    "Parody",
-    "Police",
-    "Psychological",
-    "Romance",
-    "Samurai",
-    "School",
-    "Sci-Fi",
-    "Seinen",
-    "Shoujo",
-    "Shoujo Ai",
-    "Shounen",
-    "Shounen Ai",
-    "Slice of Life",
-    "Space",
-    "Sports",
-    "Super Power",
-    "Supernatural",
-    "Thriller",
-    "Vampire"
-  ],
-  "topAiringAnimes": [
+  "mostPopularAnimes": [
     {
       "id": "one-piece-100",
       "name": "One Piece",
       "poster": "https://img.flawlessfiles.com/_r/300x400/100/54/90/5490cb32786d4f7fef0f40d7266df532/5490cb32786d4f7fef0f40d7266df532.jpg",
       "jname": "One Piece",
       "episodes": { "sub": 1086, "dub": 1036 },
+      "type": "TV"
+    },
+    {
+      "id": "naruto-shippuden-355",
+      "name": "Naruto: Shippuden",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/9c/bc/9cbcf87f54194742e7686119089478f8/9cbcf87f54194742e7686119089478f8.jpg",
+      "jname": "Naruto: Shippuuden",
+      "episodes": { "sub": 500, "dub": 500 },
+      "type": "TV"
+    },
+    {
+      "id": "demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc-18056",
+      "name": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/db/2f/db2f3ce7b9cab7fdc160b005bffb899a/db2f3ce7b9cab7fdc160b005bffb899a.png",
+      "jname": "Kimetsu no Yaiba: Katanakaji no Sato-hen",
+      "episodes": { "sub": 11, "dub": 11 },
+      "type": "TV"
+    },
+    {
+      "id": "black-clover-2404",
+      "name": "Black Clover",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/f5/8b/f58b0204c20ae3310f65ae7b8cb9987e/f58b0204c20ae3310f65ae7b8cb9987e.jpg",
+      "jname": "Black Clover",
+      "episodes": { "sub": 170, "dub": 170 },
+      "type": "TV"
+    },
+    {
+      "id": "bleach-806",
+      "name": "Bleach",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/bd/5a/bd5ae1d387a59c5abcf5e1a6a616728c/bd5ae1d387a59c5abcf5e1a6a616728c.jpg",
+      "jname": "Bleach",
+      "episodes": { "sub": 366, "dub": 366 },
       "type": "TV"
     },
     {
@@ -369,71 +168,39 @@
       "type": "TV"
     },
     {
-      "id": "attack-on-titan-the-final-season-part-3-18329",
-      "name": "Attack on Titan: The Final Season Part 3",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/54/d3/54d3f59bcc7caf1539c701eb0a064ec9/54d3f59bcc7caf1539c701eb0a064ec9.png",
-      "jname": "Shingeki no Kyojin: The Final Season - Kanketsu-hen",
-      "episodes": { "sub": 2, "dub": 1 },
+      "id": "boruto-naruto-next-generations-8143",
+      "name": "Boruto: Naruto Next Generations",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/32/c8/32c83e2ad4a43229996356840db3982c/32c83e2ad4a43229996356840db3982c.jpg",
+      "jname": "Boruto: Naruto Next Generations",
+      "episodes": { "sub": 293, "dub": 255 },
       "type": "TV"
     },
     {
-      "id": "zom-100-bucket-list-of-the-dead-18423",
-      "name": "Zom 100: Bucket List of the Dead",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/f6/b0/f6b0c0889e49de49b34b3e72fbecbfdf/f6b0c0889e49de49b34b3e72fbecbfdf.png",
-      "jname": "Zom 100: Zombie ni Naru made ni Shitai 100 no Koto",
-      "episodes": { "sub": 9, "dub": 9 },
+      "id": "naruto-677",
+      "name": "Naruto",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/5d/b4/5db400c33f7494bc8ae96f9e634958d0/5db400c33f7494bc8ae96f9e634958d0.jpg",
+      "jname": "Naruto",
+      "episodes": { "sub": 220, "dub": 220 },
       "type": "TV"
     },
     {
-      "id": "the-eminence-in-shadow-season-2-18505",
-      "name": "The Eminence in Shadow Season 2",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/da/1c/da1cf05bd53f2ba693a62fc4b08f1e80/da1cf05bd53f2ba693a62fc4b08f1e80.jpg",
-      "jname": "Kage no Jitsuryokusha ni Naritakute! 2nd Season",
-      "episodes": { "sub": 9, "dub": 9 },
+      "id": "spy-x-family-17977",
+      "name": "Spy x Family",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/88/bd/88bd17534dc4884f23027035d23d74e5/88bd17534dc4884f23027035d23d74e5.jpg",
+      "jname": "Spy x Family",
+      "episodes": { "sub": 12, "dub": 12 },
       "type": "TV"
     },
     {
-      "id": "case-closed-323",
-      "name": "Case Closed",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/3b/18/3b185ed9d10aa300bb0cb7fc35b84999/3b185ed9d10aa300bb0cb7fc35b84999.jpg",
-      "jname": "Detective Conan",
-      "episodes": { "sub": 1105, "dub": 123 },
-      "type": "TV"
-    },
-    {
-      "id": "tokyo-revengers-tenjiku-hen-18575",
-      "name": "Tokyo Revengers: Tenjiku-hen",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/02/1c/021ca452bd8b38c15f2e3c60e4a8c2ca/021ca452bd8b38c15f2e3c60e4a8c2ca.jpg",
-      "jname": "Tokyo Revengers: Tenjiku-hen",
-      "episodes": { "sub": 9, "dub": null },
-      "type": "TV"
-    },
-    {
-      "id": "spy-x-family-season-2-18572",
-      "name": "Spy x Family Season 2",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/bf/3b/bf3ba12c4112c8a922280cca870510ed/bf3ba12c4112c8a922280cca870510ed.jpg",
-      "jname": "Spy x Family Season 2",
-      "episodes": { "sub": 9, "dub": 7 },
-      "type": "TV"
-    },
-    {
-      "id": "rurouni-kenshin-meiji-kenkaku-romantan-2023-18487",
-      "name": "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/5a/77/5a777cfb390fede844f84a3f85d246e1/5a777cfb390fede844f84a3f85d246e1.jpg",
-      "jname": "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
-      "episodes": { "sub": 22, "dub": 8 },
-      "type": "TV"
-    },
-    {
-      "id": "ragna-crimson-18566",
-      "name": "Ragna Crimson",
-      "poster": "https://img.flawlessfiles.com/_r/300x400/100/cb/b2/cbb2c211b230fb106f65d302929a899f/cbb2c211b230fb106f65d302929a899f.jpg",
-      "jname": "Ragna Crimson",
-      "episodes": { "sub": 10, "dub": null },
+      "id": "jujutsu-kaisen-tv-534",
+      "name": "Jujutsu Kaisen (TV)",
+      "poster": "https://img.flawlessfiles.com/_r/300x400/100/82/40/82402f796b7d84d7071ab1e03ff7747a/82402f796b7d84d7071ab1e03ff7747a.jpg",
+      "jname": "Jujutsu Kaisen (TV)",
+      "episodes": { "sub": 24, "dub": 24 },
       "type": "TV"
     }
   ],
-  "totalPages": 40,
-  "hasNextPage": true,
-  "currentPage": 1
+  "currentPage": 1,
+  "hasNextPage": false,
+  "totalPages": 1
 }
