@@ -9,6 +9,12 @@ export default function TabLayout() {
           headerTitle: 'Your Favorites',
         }}
       />
+      <Stack.Screen
+        name="anime/[id]"
+        options={{
+          headerTitle: 'Details',
+        }}
+      />
     </Stack>
   );
 }
