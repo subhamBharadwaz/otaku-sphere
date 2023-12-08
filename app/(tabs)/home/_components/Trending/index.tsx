@@ -25,7 +25,7 @@ const Trending: FC<TrendingProps> = ({ trending }) => {
         showsHorizontalScrollIndicator={false}
         contentContainerStyle={{ gap: 16 }}
         data={trending}
-        renderItem={({ item }) => <AnimeCard key={item.id} anime={item} />}
+        renderItem={({ item }) => <AnimeCard linkFrom="main" key={item.id} anime={item} />}
       />
     </View>
   );

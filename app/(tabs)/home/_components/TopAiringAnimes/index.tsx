@@ -25,7 +25,9 @@ const TopAiringAnimes: FC<TopAiringAnimesProps> = ({ topAiringAnimes }) => {
         showsHorizontalScrollIndicator={false}
         contentContainerStyle={{ gap: 16 }}
         data={topAiringAnimes}
-        renderItem={({ item, index }) => <AnimeCard key={`${item.id}-${index}`} anime={item} />}
+        renderItem={({ item, index }) => (
+          <AnimeCard linkFrom="main" key={`${item.id}-${index}`} anime={item} />
+        )}
       />
     </View>
   );

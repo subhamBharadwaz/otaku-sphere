@@ -25,7 +25,7 @@ const LatestEpisodeAnimes: FC<LatestEpisodeAnimesProps> = ({ latestEpisodeAnimes
         showsHorizontalScrollIndicator={false}
         contentContainerStyle={{ gap: 16 }}
         data={latestEpisodeAnimes}
-        renderItem={({ item }) => <AnimeCard key={item.id} anime={item} />}
+        renderItem={({ item }) => <AnimeCard linkFrom="main" key={item.id} anime={item} />}
       />
     </View>
   );

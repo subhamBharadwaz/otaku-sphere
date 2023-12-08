@@ -25,7 +25,7 @@ const Spotlight: FC<SpotlightProps> = ({ spotlightAnimes }) => {
         showsHorizontalScrollIndicator={false}
         contentContainerStyle={{ gap: 16 }}
         data={spotlightAnimes}
-        renderItem={({ item }) => <AnimeCard key={item.id} anime={item} />}
+        renderItem={({ item }) => <AnimeCard linkFrom="main" key={item.id} anime={item} />}
       />
     </View>
   );

@@ -11,6 +11,7 @@ import {
   TrendingAnime,
 } from '@/interfaces/anime';
 import { RelatedAnime } from '@/interfaces/details';
+import { FavoriteAnime } from '@/interfaces/favorite';
 import { Anime } from '@/interfaces/search';
 
 interface AnimeCardProps {
@@ -22,8 +23,9 @@ interface AnimeCardProps {
     | TrendingAnime
     | SpotlightAnime
     | RelatedAnime
-    | Anime;
-  linkFrom: 'main' | 'genre' | 'search';
+    | Anime
+    | FavoriteAnime;
+  linkFrom: 'main' | 'genre' | 'search' | 'favorite';
 }
 
 const AnimeCard: FC<AnimeCardProps> = ({ anime, linkFrom }) => {
@@ -34,7 +36,11 @@ const AnimeCard: FC<AnimeCardProps> = ({ anime, linkFrom }) => {
           ? `/(tabs)/home/anime/${anime?.id}`
           : linkFrom === 'genre'
             ? `/(tabs)/browse/anime/${anime?.id}`
-            : `/(tabs)/search/anime/${anime?.id}`
+            : linkFrom === 'search'
+              ? `/(tabs)/search/anime/${anime?.id}`
+              : linkFrom === 'favorite' && 'anime_id' in anime
+                ? `/(tabs)/favorites/anime/${anime?.anime_id}`
+                : `/(tabs)/home/anime/${anime?.id}`
       }
       asChild>
       <Card width={150} height={250} backgroundColor="$colorTransparent">

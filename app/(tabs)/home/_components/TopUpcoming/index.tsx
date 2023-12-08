@@ -25,7 +25,7 @@ const TopUpcoming: FC<TopUpcomingProps> = ({ topUpcomingAnimes }) => {
         showsHorizontalScrollIndicator={false}
         contentContainerStyle={{ gap: 16 }}
         data={topUpcomingAnimes}
-        renderItem={({ item }) => <AnimeCard key={item.id} anime={item} />}
+        renderItem={({ item }) => <AnimeCard linkFrom="main" key={item.id} anime={item} />}
       />
     </View>
   );

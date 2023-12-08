@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { FlatList } from 'react-native-gesture-handler';
 import { View, H3, Paragraph, Main, Input, Spinner, Text } from 'tamagui';
 
-import { useDebounce } from '@/app/hooks/useDebounce';
+import { useDebounce } from '@/hooks/useDebounce';
 import AnimeCard from '@/components/AnimeCard';
 import { getSearchedAnimes } from '@/services/api';
 
