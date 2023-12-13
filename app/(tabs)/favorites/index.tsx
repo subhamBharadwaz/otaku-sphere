@@ -4,12 +4,13 @@ import { Main, Text, View } from 'tamagui';
 import AnimeCard from '@/components/AnimeCard';
 import { FavoriteAnime } from '@/interfaces/favorite';
 import useFavoritesStore from '@/store/favoriteAnimeStore';
+import { MyStack } from '@/components/MyStack';
 
 const Page = () => {
   const { favorites } = useFavoritesStore();
 
   return (
-    <Main p="$5">
+    <MyStack theme="dark" p="$5">
       <FlatList
         showsVerticalScrollIndicator={false}
         numColumns={2}
@@ -23,7 +24,7 @@ const Page = () => {
           </View>
         )}
       />
-    </Main>
+    </MyStack>
   );
 };
 

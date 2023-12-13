@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
-import { Main, ScrollView, YStack } from 'tamagui';
+import { ScrollView, YStack } from 'tamagui';
 
 import LatestEpisodeAnimes from './_components/LatestEpisodeAnimes';
 import Spotlight from './_components/Spotlight';
@@ -7,6 +7,7 @@ import TopAiringAnimes from './_components/TopAiringAnimes';
 import TopUpcoming from './_components/TopUpcoming';
 import Trending from './_components/Trending';
 
+import { MyMain } from '@/components/MyMain';
 import { getAnimes } from '@/services/api';
 
 const Page = () => {
@@ -15,7 +16,7 @@ const Page = () => {
     queryFn: getAnimes,
   });
   return (
-    <Main p={15}>
+    <MyMain paddingHorizontal={15} paddingVertical={80} paddingBottom={100}>
       {/* Trending Animes */}
       <ScrollView showsVerticalScrollIndicator={false}>
         <YStack gap="$5">
@@ -40,7 +41,7 @@ const Page = () => {
           </>
         </YStack>
       </ScrollView>
-    </Main>
+    </MyMain>
   );
 };
 

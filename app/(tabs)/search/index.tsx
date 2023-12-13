@@ -1,36 +1,17 @@
 import { Ionicons } from '@expo/vector-icons';
-import { useInfiniteQuery, useQuery } from '@tanstack/react-query';
-import { useEffect, useState } from 'react';
+import { useQuery } from '@tanstack/react-query';
+import { useState } from 'react';
 import { FlatList } from 'react-native-gesture-handler';
-import { View, H3, Paragraph, Main, Input, Spinner, Text } from 'tamagui';
+import { View, Paragraph, Input, Spinner, Text } from 'tamagui';
 
-import { useDebounce } from '@/hooks/useDebounce';
 import AnimeCard from '@/components/AnimeCard';
+import { MyMain } from '@/components/MyMain';
+import { useDebounce } from '@/hooks/useDebounce';
 import { getSearchedAnimes } from '@/services/api';
 
 const Page = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const debouncedValue = useDebounce(searchTerm, 1000);
-
-  // const { data, fetchNextPage, isFetchingNextPage, isLoading } = useInfiniteQuery({
-  //   queryKey: ['anime-search', debouncedValue],
-  //   queryFn: ({ pageParam = 1 }) => {
-  //     if (debouncedValue && debouncedValue.length > 0) {
-  //       return getSearchedAnimes(debouncedValue, pageParam as number);
-  //     }
-  //   },
-  //   getNextPageParam: (lastPage) => {
-  //     const { currentPage, totalPages, hasNextPage } = lastPage || {
-  //       currentPage: 0,
-  //       totalPages: 0,
-  //       hasNextPage: false,
-  //     };
-  //     return hasNextPage && totalPages > 0 ? currentPage + 1 : undefined;
-  //   },
-  //   initialPageParam: 1,
-  // });
-
-  // const animes = data?.pages?.flatMap((page) => page?.animes);
 
   const searchedAnimeQuery = useQuery({
     queryKey: ['anime-search', debouncedValue],
@@ -45,25 +26,20 @@ const Page = () => {
     },
   });
 
-  // if (!animes || animes?.length === 0) {
-  //   return null;
-  // }
-
   return (
-    <Main p="$4">
-      <H3 color="$background">Find New Animes</H3>
-      <Paragraph color="$background">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, nesciunt?
+    <MyMain px="$4" py="$2">
+      <Paragraph fontSize={16} color="$gray11Dark">
+        Search and discover anime treasures in our diverse collection
       </Paragraph>
 
       <View flexDirection="row" alignItems="center" position="relative" w="80%">
         <Input
           size="$5"
           borderWidth={2}
-          placeholder="Search anime names"
-          bg="white"
-          borderColor="$blue10"
-          color="$background"
+          placeholder="Search anime by name"
+          bg="$gray3Dark"
+          placeholderTextColor="$gray10Light"
+          color="white"
           my={20}
           w="100%"
           onChangeText={(text) => setSearchTerm(text)}
@@ -71,7 +47,7 @@ const Page = () => {
 
         <Ionicons
           name="ios-search-outline"
-          color="black"
+          color="white"
           style={{ position: 'absolute', right: 15 }}
           size={24}
         />
@@ -102,7 +78,7 @@ const Page = () => {
             No matching animes found.
           </Text>
         )}
-    </Main>
+    </MyMain>
   );
 };
 

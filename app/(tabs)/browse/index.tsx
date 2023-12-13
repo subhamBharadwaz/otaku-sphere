@@ -1,9 +1,11 @@
 import { useQuery } from '@tanstack/react-query';
-import { FlatList } from 'react-native';
-import { Main, View } from 'tamagui';
+import { FlatList, ViewToken } from 'react-native';
+import { useSharedValue } from 'react-native-reanimated';
+import { View } from 'tamagui';
 
 import GenreCard from './_components/GenreCard';
 
+import { MyStack } from '@/components/MyStack';
 import { getAnimes } from '@/services/api';
 
 const Page = () => {
@@ -11,25 +13,29 @@ const Page = () => {
     queryKey: ['all-anime'],
     queryFn: getAnimes,
   });
-  return (
-    <Main p={15}>
-      {/* Trending Animes */}
 
+  const viewableItems = useSharedValue<ViewToken[]>([]);
+
+  return (
+    <MyStack theme="dark" p={15}>
       {animeQuery.data && (
         <View>
           <FlatList
-            numColumns={2}
             contentContainerStyle={{
-              rowGap: 15,
-              columnGap: 15,
+              paddingVertical: 10,
+            }}
+            onViewableItemsChanged={({ viewableItems: vItems }) => {
+              viewableItems.value = vItems;
             }}
             showsVerticalScrollIndicator={false}
             data={animeQuery?.data?.genres}
-            renderItem={({ item }) => <GenreCard key={item} genre={item} />}
+            renderItem={({ item }) => (
+              <GenreCard viewableItems={viewableItems} key={item} genre={item} />
+            )}
           />
         </View>
       )}
-    </Main>
+    </MyStack>
   );
 };
 

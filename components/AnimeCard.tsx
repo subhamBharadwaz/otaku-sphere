@@ -1,6 +1,6 @@
 import { Link } from 'expo-router';
 import { FC } from 'react';
-import { Card, Image, Text } from 'tamagui';
+import { Card, H5, Image, SizableText, Text, YStack } from 'tamagui';
 
 import {
   LatestEpisodeAnime,
@@ -10,7 +10,7 @@ import {
   TopUpcomingAnime,
   TrendingAnime,
 } from '@/interfaces/anime';
-import { RelatedAnime } from '@/interfaces/details';
+import { RelatedAnime, Stats } from '@/interfaces/details';
 import { FavoriteAnime } from '@/interfaces/favorite';
 import { Anime } from '@/interfaces/search';
 
@@ -43,19 +43,17 @@ const AnimeCard: FC<AnimeCardProps> = ({ anime, linkFrom }) => {
                 : `/(tabs)/home/anime/${anime?.id}`
       }
       asChild>
-      <Card width={150} height={250} backgroundColor="$colorTransparent">
-        <Card.Header p={0}>
-          <Image
-            source={{ uri: anime?.poster }}
-            alt={anime?.name}
-            style={{ width: 150, height: 200 }}
-            borderRadius={5}
-          />
-        </Card.Header>
-        <Card.Footer p={8}>
-          <Text fontSize={16}>{anime?.name}</Text>
-        </Card.Footer>
-      </Card>
+      <YStack space="$2" width={150}>
+        <Image
+          source={{ uri: anime?.poster }}
+          alt={anime?.name}
+          style={{ width: 150, height: 200 }}
+          borderRadius={5}
+        />
+        <H5 fontSize={16}>
+          {anime?.name.length > 15 ? `${anime?.name.slice(0, 15)}...` : anime?.name}
+        </H5>
+      </YStack>
     </Link>
   );
 };

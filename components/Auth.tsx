@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { Alert } from 'react-native';
-import { Button, Input, View, AlertDialog, XStack, Label, YStack, Main, H3 } from 'tamagui';
+import { Button, Input, XStack, Label, YStack, Main, H3 } from 'tamagui';
 
 import { supabase } from '@/utils/supabase';
+import { MyStack } from './MyStack';
+import { MyMain } from './MyMain';
 
 export default function Auth() {
   const [email, setEmail] = useState('');
@@ -38,13 +40,13 @@ export default function Auth() {
   }
 
   return (
-    <Main mt={40} p={12}>
-      <H3 alignSelf="center" color="$background" my="$5">
+    <MyMain theme="dark" p={12}>
+      <H3 alignSelf="center" my="$5">
         Sign up
       </H3>
       <YStack space="$7">
         <XStack>
-          <Label width={90} htmlFor="email" color="$background">
+          <Label width={90} htmlFor="email">
             Email
           </Label>
           <Input
@@ -53,15 +55,15 @@ export default function Auth() {
             placeholder="email@address.com"
             autoCapitalize="none"
             id="email"
-            bg="white"
-            color="$background"
+            bg="$gray3Dark"
+            color="white"
             borderColor="$blue11"
             flex={1}
           />
         </XStack>
 
         <XStack>
-          <Label width={90} htmlFor="password" color="$background">
+          <Label width={90} htmlFor="password">
             Password
           </Label>
           <Input
@@ -69,8 +71,9 @@ export default function Auth() {
             value={password}
             placeholder="********"
             id="password"
-            bg="white"
-            color="$background"
+            textContentType="password"
+            bg="$gray3Dark"
+            color="white"
             borderColor="$blue11"
             flex={1}
           />
@@ -86,6 +89,6 @@ export default function Auth() {
           </Button>
         </YStack>
       </YStack>
-    </Main>
+    </MyMain>
   );
 }

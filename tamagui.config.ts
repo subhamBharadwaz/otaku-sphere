@@ -30,15 +30,10 @@ const headingFont = createInterFont();
 const bodyFont = createInterFont();
 
 const config = createTamagui({
-  light: {
-    color: {
-      background: 'gray',
-      text: 'black',
-    },
-  },
   defaultFont: 'body',
+  defaultTheme: 'dark',
   animations,
-  shouldAddPrefersColorThemes: true,
+  shouldAddPrefersColorThemes: false,
   themeClassNameOnRoot: true,
   shorthands,
   fonts: {

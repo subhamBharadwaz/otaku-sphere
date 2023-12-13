@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { FlatList } from 'react-native';
-import { Text, View } from 'tamagui';
+import { H3, View } from 'tamagui';
 
 // @ts-ignore
 import SpotlightIcon from '@/assets/spotlight.svg';
@@ -16,9 +16,7 @@ const Spotlight: FC<SpotlightProps> = ({ spotlightAnimes }) => {
     <View>
       <View py={10} flexDirection="row" alignItems="center" gap="$2">
         <SpotlightIcon width={20} height={20} />
-        <Text fontSize={20} fontWeight="bold">
-          Spotlight Animes
-        </Text>
+        <H3 fontSize={20}>Spotlight Animes</H3>
       </View>
       <FlatList
         horizontal

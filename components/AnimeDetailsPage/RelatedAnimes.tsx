@@ -13,7 +13,7 @@ interface RelatedAnimesProps {
 const RelatedAnimes: FC<RelatedAnimesProps> = ({ relatedAnimes }) => {
   return (
     <View gap="$2">
-      <H3 color="$background">You may also like</H3>
+      <H3>You may also like</H3>
       <FlatList
         horizontal
         showsHorizontalScrollIndicator={false}

@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { FlatList } from 'react-native';
-import { Text, View } from 'tamagui';
+import { H3, View } from 'tamagui';
 
 // @ts-ignore
 import UpcomingIcon from '@/assets/upcoming.svg';
@@ -16,9 +16,7 @@ const TopUpcoming: FC<TopUpcomingProps> = ({ topUpcomingAnimes }) => {
     <View>
       <View py={10} flexDirection="row" alignItems="center" gap="$2">
         <UpcomingIcon width={20} height={20} />
-        <Text fontSize={20} fontWeight="bold">
-          Top Upcoming Animes
-        </Text>
+        <H3 fontSize={20}>Top Upcoming Animes</H3>
       </View>
       <FlatList
         horizontal

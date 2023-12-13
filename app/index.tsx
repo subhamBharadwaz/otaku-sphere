@@ -3,12 +3,11 @@ import { useEffect } from 'react';
 
 import Auth from '@/components/Auth';
 import useAuthStore from '@/store/authStore';
-import useFavoritesStore from '@/store/favoriteAnimeStore';
 import { supabase } from '@/utils/supabase';
+import { Main } from 'tamagui';
 
 const Page = () => {
   const { session, setSession } = useAuthStore();
-  const { loadInitialFavorites } = useFavoritesStore();
 
   useEffect(() => {
     supabase.auth.getSession().then(({ data: { session } }) => {
@@ -18,10 +17,6 @@ const Page = () => {
     supabase.auth.onAuthStateChange((_event, session) => {
       setSession(session);
     });
-  }, []);
-
-  useEffect(() => {
-    loadInitialFavorites();
   }, []);
 
   return <>{session && session?.user ? <Redirect href="/(tabs)/home" /> : <Auth />}</>;

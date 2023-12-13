@@ -5,6 +5,7 @@ import { Main, Spinner, Text, View } from 'tamagui';
 
 import AnimeCard from '@/components/AnimeCard';
 import { getAnimesByGenre } from '@/services/api';
+import { MyStack } from '@/components/MyStack';
 
 const Page = () => {
   const { slug } = useLocalSearchParams<{ slug: string }>();
@@ -26,7 +27,7 @@ const Page = () => {
   const animes = data?.pages?.flatMap((page) => page?.animes);
 
   return (
-    <Main p="$5">
+    <MyStack theme="dark" p="$5">
       {isLoading && <Spinner py={14} size="large" color="$blue10" />}
 
       <>
@@ -51,7 +52,7 @@ const Page = () => {
         )}
       </>
       {isFetchingNextPage && <Spinner pb={15} pt={10} size="large" color="$blue10" />}
-    </Main>
+    </MyStack>
   );
 };
 

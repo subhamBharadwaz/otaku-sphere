@@ -13,7 +13,7 @@ interface RecommendedAnimesProps {
 const RecommendedAnimes: FC<RecommendedAnimesProps> = ({ recommendedAnimes }) => {
   return (
     <View gap="$2">
-      <H3 color="$background">Recommended animes</H3>
+      <H3>Recommended animes</H3>
 
       <FlatList
         horizontal

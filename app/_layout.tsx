@@ -2,10 +2,13 @@ import { QueryClientProvider } from '@tanstack/react-query';
 import { useFonts } from 'expo-font';
 import { Slot, SplashScreen } from 'expo-router';
 import React, { useEffect } from 'react';
-import { TamaguiProvider } from 'tamagui';
+import { useColorScheme } from 'react-native';
+import { TamaguiProvider, Theme } from 'tamagui';
 
+import { MySafeAreaView } from '@/components/MySafeAreaView';
 import { queryClient } from '@/queryClient';
 import config from '@/tamagui.config';
+import { StatusBar } from 'expo-status-bar';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -20,6 +23,8 @@ export default function RootLayout() {
     InterBold: require('@tamagui/font-inter/otf/Inter-Bold.otf'),
   });
 
+  const colorScheme = useColorScheme();
+
   useEffect(() => {
     if (loaded) {
       SplashScreen.hideAsync();
@@ -29,10 +34,17 @@ export default function RootLayout() {
   if (!loaded) return null;
 
   return (
-    <TamaguiProvider config={config}>
-      <QueryClientProvider client={queryClient}>
-        <Slot />
-      </QueryClientProvider>
-    </TamaguiProvider>
+    <>
+      <StatusBar style="light" />
+      <TamaguiProvider config={config}>
+        <QueryClientProvider client={queryClient}>
+          <Theme name="dark">
+            <MySafeAreaView>
+              <Slot />
+            </MySafeAreaView>
+          </Theme>
+        </QueryClientProvider>
+      </TamaguiProvider>
+    </>
   );
 }
